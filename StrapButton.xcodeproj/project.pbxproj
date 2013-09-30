@@ -1,0 +1,324 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		7F46950117F986C500903E7E /* NSString+FontAwesome.m in Sources */ = {isa = PBXBuildFile; fileRef = 7F46950017F986C500903E7E /* NSString+FontAwesome.m */; };
+		7F46950317F9870A00903E7E /* FontAwesome.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 7F46950217F9870A00903E7E /* FontAwesome.ttf */; };
+		7FF213FD17F8909800C7AF2A /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7FF213FC17F8909800C7AF2A /* UIKit.framework */; };
+		7FF213FF17F8909800C7AF2A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7FF213FE17F8909800C7AF2A /* Foundation.framework */; };
+		7FF2140117F8909800C7AF2A /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7FF2140017F8909800C7AF2A /* CoreGraphics.framework */; };
+		7FF2140717F8909800C7AF2A /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 7FF2140517F8909800C7AF2A /* InfoPlist.strings */; };
+		7FF2140917F8909800C7AF2A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 7FF2140817F8909800C7AF2A /* main.m */; };
+		7FF2140D17F8909800C7AF2A /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 7FF2140C17F8909800C7AF2A /* AppDelegate.m */; };
+		7FF2140F17F8909800C7AF2A /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = 7FF2140E17F8909800C7AF2A /* Default.png */; };
+		7FF2141117F8909800C7AF2A /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 7FF2141017F8909800C7AF2A /* Default@2x.png */; };
+		7FF2141317F8909800C7AF2A /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 7FF2141217F8909800C7AF2A /* Default-568h@2x.png */; };
+		7FF2141617F8909800C7AF2A /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7FF2141517F8909800C7AF2A /* ViewController.m */; };
+		7FF2141917F8909800C7AF2A /* ViewController_iPhone.xib in Resources */ = {isa = PBXBuildFile; fileRef = 7FF2141717F8909800C7AF2A /* ViewController_iPhone.xib */; };
+		7FF2142417F890C100C7AF2A /* UIButton+Bootstrap.m in Sources */ = {isa = PBXBuildFile; fileRef = 7FF2142317F890C100C7AF2A /* UIButton+Bootstrap.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		7F4694FF17F986C500903E7E /* NSString+FontAwesome.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+FontAwesome.h"; sourceTree = "<group>"; };
+		7F46950017F986C500903E7E /* NSString+FontAwesome.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+FontAwesome.m"; sourceTree = "<group>"; };
+		7F46950217F9870A00903E7E /* FontAwesome.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = FontAwesome.ttf; sourceTree = "<group>"; };
+		7FF213F917F8909800C7AF2A /* StrapButton.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = StrapButton.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		7FF213FC17F8909800C7AF2A /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		7FF213FE17F8909800C7AF2A /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		7FF2140017F8909800C7AF2A /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		7FF2140417F8909800C7AF2A /* StrapButton-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "StrapButton-Info.plist"; sourceTree = "<group>"; };
+		7FF2140617F8909800C7AF2A /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		7FF2140817F8909800C7AF2A /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		7FF2140A17F8909800C7AF2A /* StrapButton-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "StrapButton-Prefix.pch"; sourceTree = "<group>"; };
+		7FF2140B17F8909800C7AF2A /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		7FF2140C17F8909800C7AF2A /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		7FF2140E17F8909800C7AF2A /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
+		7FF2141017F8909800C7AF2A /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
+		7FF2141217F8909800C7AF2A /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		7FF2141417F8909800C7AF2A /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		7FF2141517F8909800C7AF2A /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		7FF2141817F8909800C7AF2A /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/ViewController_iPhone.xib; sourceTree = "<group>"; };
+		7FF2142217F890C100C7AF2A /* UIButton+Bootstrap.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIButton+Bootstrap.h"; sourceTree = "<group>"; };
+		7FF2142317F890C100C7AF2A /* UIButton+Bootstrap.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIButton+Bootstrap.m"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		7FF213F617F8909800C7AF2A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7FF213FD17F8909800C7AF2A /* UIKit.framework in Frameworks */,
+				7FF213FF17F8909800C7AF2A /* Foundation.framework in Frameworks */,
+				7FF2140117F8909800C7AF2A /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		7FF213F017F8909800C7AF2A = {
+			isa = PBXGroup;
+			children = (
+				7FF2140217F8909800C7AF2A /* StrapButton */,
+				7FF213FB17F8909800C7AF2A /* Frameworks */,
+				7FF213FA17F8909800C7AF2A /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		7FF213FA17F8909800C7AF2A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				7FF213F917F8909800C7AF2A /* StrapButton.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		7FF213FB17F8909800C7AF2A /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				7FF213FC17F8909800C7AF2A /* UIKit.framework */,
+				7FF213FE17F8909800C7AF2A /* Foundation.framework */,
+				7FF2140017F8909800C7AF2A /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		7FF2140217F8909800C7AF2A /* StrapButton */ = {
+			isa = PBXGroup;
+			children = (
+				7FF2140B17F8909800C7AF2A /* AppDelegate.h */,
+				7FF2140C17F8909800C7AF2A /* AppDelegate.m */,
+				7FF2141417F8909800C7AF2A /* ViewController.h */,
+				7FF2141517F8909800C7AF2A /* ViewController.m */,
+				7F4694FF17F986C500903E7E /* NSString+FontAwesome.h */,
+				7F46950017F986C500903E7E /* NSString+FontAwesome.m */,
+				7FF2142217F890C100C7AF2A /* UIButton+Bootstrap.h */,
+				7FF2142317F890C100C7AF2A /* UIButton+Bootstrap.m */,
+				7F46950217F9870A00903E7E /* FontAwesome.ttf */,
+				7FF2141717F8909800C7AF2A /* ViewController_iPhone.xib */,
+				7FF2140317F8909800C7AF2A /* Supporting Files */,
+			);
+			path = StrapButton;
+			sourceTree = "<group>";
+		};
+		7FF2140317F8909800C7AF2A /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				7FF2140417F8909800C7AF2A /* StrapButton-Info.plist */,
+				7FF2140517F8909800C7AF2A /* InfoPlist.strings */,
+				7FF2140817F8909800C7AF2A /* main.m */,
+				7FF2140A17F8909800C7AF2A /* StrapButton-Prefix.pch */,
+				7FF2140E17F8909800C7AF2A /* Default.png */,
+				7FF2141017F8909800C7AF2A /* Default@2x.png */,
+				7FF2141217F8909800C7AF2A /* Default-568h@2x.png */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		7FF213F817F8909800C7AF2A /* StrapButton */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7FF2141F17F8909800C7AF2A /* Build configuration list for PBXNativeTarget "StrapButton" */;
+			buildPhases = (
+				7FF213F517F8909800C7AF2A /* Sources */,
+				7FF213F617F8909800C7AF2A /* Frameworks */,
+				7FF213F717F8909800C7AF2A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = StrapButton;
+			productName = StrapButton;
+			productReference = 7FF213F917F8909800C7AF2A /* StrapButton.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		7FF213F117F8909800C7AF2A /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0460;
+				ORGANIZATIONNAME = "Oskar Groth";
+			};
+			buildConfigurationList = 7FF213F417F8909800C7AF2A /* Build configuration list for PBXProject "StrapButton" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 7FF213F017F8909800C7AF2A;
+			productRefGroup = 7FF213FA17F8909800C7AF2A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				7FF213F817F8909800C7AF2A /* StrapButton */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		7FF213F717F8909800C7AF2A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7FF2140717F8909800C7AF2A /* InfoPlist.strings in Resources */,
+				7FF2140F17F8909800C7AF2A /* Default.png in Resources */,
+				7FF2141117F8909800C7AF2A /* Default@2x.png in Resources */,
+				7FF2141317F8909800C7AF2A /* Default-568h@2x.png in Resources */,
+				7FF2141917F8909800C7AF2A /* ViewController_iPhone.xib in Resources */,
+				7F46950317F9870A00903E7E /* FontAwesome.ttf in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		7FF213F517F8909800C7AF2A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7FF2140917F8909800C7AF2A /* main.m in Sources */,
+				7FF2140D17F8909800C7AF2A /* AppDelegate.m in Sources */,
+				7FF2141617F8909800C7AF2A /* ViewController.m in Sources */,
+				7FF2142417F890C100C7AF2A /* UIButton+Bootstrap.m in Sources */,
+				7F46950117F986C500903E7E /* NSString+FontAwesome.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		7FF2140517F8909800C7AF2A /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				7FF2140617F8909800C7AF2A /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		7FF2141717F8909800C7AF2A /* ViewController_iPhone.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				7FF2141817F8909800C7AF2A /* en */,
+			);
+			name = ViewController_iPhone.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		7FF2141D17F8909800C7AF2A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		7FF2141E17F8909800C7AF2A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		7FF2142017F8909800C7AF2A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "StrapButton/StrapButton-Prefix.pch";
+				INFOPLIST_FILE = "StrapButton/StrapButton-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		7FF2142117F8909800C7AF2A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "StrapButton/StrapButton-Prefix.pch";
+				INFOPLIST_FILE = "StrapButton/StrapButton-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		7FF213F417F8909800C7AF2A /* Build configuration list for PBXProject "StrapButton" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7FF2141D17F8909800C7AF2A /* Debug */,
+				7FF2141E17F8909800C7AF2A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7FF2141F17F8909800C7AF2A /* Build configuration list for PBXNativeTarget "StrapButton" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7FF2142017F8909800C7AF2A /* Debug */,
+				7FF2142117F8909800C7AF2A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 7FF213F117F8909800C7AF2A /* Project object */;
+}
