@@ -1,6 +1,6 @@
 //
-//  StrapButton.m
-//  StrapButton
+//  UIButton+Bootstrap.m
+//  UIButton+Bootstrap
 //
 //  Created by Oskur on 2013-09-29.
 //  Copyright (c) 2013 Oskar Groth. All rights reserved.

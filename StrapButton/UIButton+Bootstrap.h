@@ -1,6 +1,6 @@
 //
-//  StrapButton.h
-//  StrapButton
+//  UIButton+Bootstrap.h
+//  UIButton+Bootstrap
 //
 //  Created by Oskar Groth on 2013-09-29.
 //  Copyright (c) 2013 Oskar Groth. All rights reserved.
