@@ -4,6 +4,8 @@ Simple UIButton category that adds nice and flat Bootstrap 3.0 button styles.
 
 No subclass, no images. Quartz Core drawing. Highly customizable.
 
+![UIButton+Bootstrap](screen.png "Screenshot")
+
 ## How-To
 * Drag the `UIButton+Bootstrap`, `NSString+FontAwesome` and `FontAwesome.ttf` files to your project
 * Import the category with `#import "UIButton+Bootstrap.h"`
